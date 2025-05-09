@@ -1,0 +1,29 @@
+/* 
+
+    propeidad que un contenido que se desborda miento del contenedor
+
+
+    overflow-x y overflow-y
+
+    tiene cuatro valores::after
+
+
+    visible: es el valor por defecto
+    hidden: el contenido qeu se desborda se esconda
+
+overflow: auto; te da las opcines para ver de manera automatica
+
+
+
+tiene que ser el texto dinamico o en el caso de que el texto ocupe demasiado puedas poner
+
+
+
+
+*/
+
+.box{
+    margin-left: auto;
+    everflow-y: scroll;
+    /* aparace un bara para ver  */
+}

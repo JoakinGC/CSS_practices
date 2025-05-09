@@ -1,0 +1,47 @@
+/* 
+
+    La herencia es la capacidad que tiene ciertos elementos de heredar
+    algunas propiedades de sus elementos contenedores ( padres, abuelos, hijo, etc).
+
+
+
+el color es una de las porpiedades que se heredan osea si una caja contiene a otra, la que esta dentro
+de ella va a tener las propiedades que tiene la caja que la contiene.
+
+lo mismo con otras propiedades que no sean de color: font size
+*/
+
+body{
+    background-color: #333;
+}
+
+.title{
+    background-color: red;
+    font-size: 10px;
+}
+
+/* existen ocasiones en la que no se heredan las propiedades */
+
+.text{
+    background-color: royalblue;
+}
+
+/* por ejemplos los links no heredan los colores o propiedades del padre,  */
+
+
+.link{
+    background-color: inherit;
+}
+
+/* este es un valor que obliga a cuqluier propiedad que no se hereda por defecto pero esto ase que lo hace
+forzando la herencia.  lo mismo sucede en efecto inverso si no queremos que herede una propiedad*/
+
+.list{
+    color: indianred;
+}
+
+.list-item_4{
+    color:initial;
+}
+
+

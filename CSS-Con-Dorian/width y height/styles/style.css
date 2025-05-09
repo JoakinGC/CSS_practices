@@ -1,0 +1,31 @@
+/* 
+
+usamos preespal o algo asi seguimos con el video con el modelo de que muetsra y configuracion
+del video 21 prespo
+
+
+los elementos en linea no tienen medida, en tamaño no tienn mediad por lo que estas propiedaeas
+de este tipo no le afecta, se la medida solo a los elementos de bloques
+
+
+
+
+*/
+
+body{
+    background-color: #333;
+    color: #fff
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.online{
+    background-color: lightcoral;
+    color: inherit;
+    width: 200px;
+    height: 200px;
+}

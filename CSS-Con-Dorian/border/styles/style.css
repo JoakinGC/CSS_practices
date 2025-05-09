@@ -1,0 +1,103 @@
+/* 
+
+la propiedad border ya existe el border es un shorthand::after
+
+    border-
+copia lo de video border
+
+
+se pude cambiar lo bordes de cada uno y eso van variando
+
+style tiene un listado de valores entre cada uno de ellos
+
+border-style: hidden
+border-style: stap
+border-style: dotep, borde hecho con puntos el borde width controla el diameto
+border-style: dashe; con lineas en debe con botones y lo mismo lo controlamos con width
+
+border-style: solid
+border-style: double; , widht lo que hace es el espacio en pixeles que nosotros hayamos 
+puesto y con color cambiamos el color.
+
+border-style: groove; hace una forma 3D
+
+border-style: ridge; Hace lo mismo que lo anterior pero al reves
+
+border-style: inset; igual que las anteriores  
+border-style: outset;
+
+
+border radiuos:
+
+ver video de border raiduos 
+
+
+pero por ahora border-radius cada uno de las propiedades que muestra para poder controlar
+el borde raidus
+
+
+
+y todo sobre border
+
+
+border-radius: 50px (eje y) / 150 px(eje x)
+
+lo mismo con:
+
+border-redius: 50px 100px 150px 200px / 100px 150px 200px 150px;
+
+estos bordes juntos pero la mejor formas es trabajar con los border de manera independiente
+para entender y no cometer errores
+    
+
+
+*/
+
+body{
+    background-color: #333;
+    color: #fff
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 100px 70px;
+}
+/* con los elementos de linea funciona igual que con elementos de bloque */
+.online{
+    background-color: lightcoral;
+    color: inherit;
+    width: 200px;
+    height: 200px;
+}
+
+/* la diferencia de margin y paddin es que con margen movemos y padding aumentamos 
+o crecees de los mismo por eso la diferencia. */
+
+.buttons{
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px 50px;
+    margin-left: 90px;
+    border: 50px solid red;
+    /* 
+    esto abarca lo mismo que lo anterior solo que mas resumiedo 
+    
+    border-width: 50px;
+    border-style: solid;
+    border-color: red; */
+    
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius;
+}

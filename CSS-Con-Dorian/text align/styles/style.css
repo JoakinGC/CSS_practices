@@ -1,0 +1,22 @@
+/* 
+
+    Text-align:left;
+    text-aling: right;
+    text-aling: justify;
+
+    ocupa todo el espacio pero no es reconmedable suar porque lñas palabaras tiene 
+    diferentes tamaños de 
+
+    test-aling: center solo centra el contenido no la caja
+
+
+    .mag {
+        text-aling: center; (no sirver para centar)
+        display: block;
+        margin-left auto
+        margin-right: auto
+
+sino 
+
+        text aling: center; nada de display solo con ese
+*/

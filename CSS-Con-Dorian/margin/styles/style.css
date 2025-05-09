@@ -1,0 +1,53 @@
+/* 
+
+Margin :
+         es la propiedad que nos permite generar espacio entre elementos.
+         Es un shorhand (propiedad abreviadada)
+
+         Los 4 lados posibles a los que dar margenes
+
+
+         margin-too: margen superior.
+         margin-right: margen derecho
+
+
+
+         4 valores -> margin: top right bottom left;
+         3 valores -> margin: top left/right botom;
+         2 valores -> margin:
+         1 valores -> margin:
+
+
+
+*/
+
+
+
+body{
+    background-color: #333;
+    color: #fff
+}
+
+.title{
+    margin-left: auto;
+    width: 300px;
+    background-color: lightcoral;
+/* declarar siempre em el margen base */
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 50px 100px 50px 10; */
+}
+
+.online{
+    background-color: lightcoral;
+    color: inherit;
+    /* margin-botom */
+    margin-left: 100px;
+    /* los elementos de linea solo tienen margenes de lado horizontales no arriba o abajo */
+}

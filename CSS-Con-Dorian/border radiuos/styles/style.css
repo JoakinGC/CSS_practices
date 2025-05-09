@@ -1,0 +1,14 @@
+/* 
+b6rder t6- r5ght rad56ssskisi
+
+border-botom-left-radius (abajo)
+border-top-left-radius  (arriba)
+
+
+border-radius: 50px (para todos), 100px (para las esquian de arriba), 150px ( esquina de abajo), 200px (solo lo)
+
+
+
+border-radius: 50px (eje x) /(eje y) 100px;
+border-radius: 50px 100px 150px 200px / 100px 150px 200px 250px;
+*/

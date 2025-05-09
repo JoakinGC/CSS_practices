@@ -1,0 +1,47 @@
+/* 
+
+como funciona css?
+
+        Especificidad -> Establece como de especifico es un selector
+        para saber qué estilo aplicar.
+        El calculo se realiza con la siguiente fórmula.
+
+    Etiquetas y pseudoelementos 001
+    Clases y atributos y pseudoclases 010
+    ids 100s
+    Estilos de linea 1000
+    Important gana a todos y no se usa nunca
+
+        La cascada -> Funciona siempre que la especificidad sobre el elemento sea la misma+
+        osea que la suma de los valores si da igual el ultimo selector de la etiqueta o caja
+        es el que prevalece
+*/
+
+h1{
+    background-color: lawngreen;
+}
+
+.h1{
+    background-color: lightcoral;
+}
+
+#h1{
+    background-color: blue;
+
+}
+
+h1.h1{
+    background-color: crimson;
+
+}
+
+h1#h1{
+    background-color: darkgreen;
+}
+
+h1.h1#h1{
+    background-color: red;
+}
+
+/* Este suma mas valor que todos juntos. */
+

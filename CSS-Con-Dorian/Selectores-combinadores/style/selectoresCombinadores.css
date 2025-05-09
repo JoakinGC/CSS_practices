@@ -1,0 +1,30 @@
+/* 
+Selectores compuesto:
+                    Selectores Agrupados -> Se agrupan los selectores separados por comas y se escribe
+                    el estilo una sola vez.
+                    
+                    Selectores combiandos:
+                        Selector descenciente
+
+
+*/
+/* 
+h2{
+    background-color: teal;
+} */
+
+div .title-3{
+    background-color: teal;
+}
+
+/* se usa la etiqueta div sin que asigne nada y luego espacio y dentro del div busca la clase con el 
+nombre que colocamos en el mismo atributo de clase 
+
+
+esto sigue funcionando sin importa la etiqueta y cuanta veces se quiera:
+
+html body main section div .title-3{
+    backgroundo-color: teal;
+}
+ pero no es recomedable, para buenas practicas no es bueno hacerlo, como maximo 2 elementos    
+    */

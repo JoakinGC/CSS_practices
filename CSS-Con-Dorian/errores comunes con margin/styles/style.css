@@ -1,0 +1,63 @@
+/* errores comunes de con el margin::after
+
+   si colocas el base de todo:
+   
+   
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        esto no es util debido a que arruina el margen de las cajas que vemos
+
+
+esto es la primera mala practica
+
+
+si queres centrar un elementos:
+
+
+
+
+
+*/
+
+
+body{
+    background-color: #333;
+    color: #fff
+}
+
+.title{
+    margin-left: auto;
+    width: 300px;
+    background-color: lightcoral;
+/* declarar siempre em el margen base */
+}
+
+body{
+    background-color: #333;
+}
+
+.header{
+    background-color: red;
+    height: 50px;
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    /* para centrar elementos sin tocar elemetnosque no debmos tocar */
+}
+
+.online{
+    background-color: lightcoral;
+    color: inherit;
+    /* margin-botom */
+    margin-left: 100px;
+    /* los elementos de linea solo tienen margenes de lado horizontales no arriba o abajo */
+}

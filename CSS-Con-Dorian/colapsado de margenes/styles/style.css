@@ -1,0 +1,42 @@
+/* los margenes verticlaes colapsan
+
+la soluciuon es da un margen botom a todos los elementos 
+
+margin-botm con mas para separlos no mezcles ls margin-botm o margim right: esto pueden 
+llegar a colapsar.
+
+
+y despues tenemos otro problema con los hijos y padres
+
+
+existen varios trcuos que existen en css
+
+el primero es utilizar overflow:hidden;
+
+se puede solucionar el problema de colapsado de pading-stop
+
+
+border-top: 0.1px solid lighcoral;
+
+estas son las tres formas para poder solucionar el problema de 
+
+*/
+
+
+
+.header{
+
+
+}
+
+.box-1{
+
+}
+
+.box-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightcyan;
+
+}

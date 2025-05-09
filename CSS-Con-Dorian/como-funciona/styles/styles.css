@@ -1,0 +1,77 @@
+/* hacer la practica de espeficidida
+
+la mayoria de los elementos tienen un valor y los valores se suman dependiendo 
+de los elemtnos en este caso este seria 
+
+    etiquetas, atributos y peusoelementos 010
+    clases, atributos y pseudoelementos 010
+    ids 100
+    estilos de linea 1000
+    
+    
+    por eso cuando se suman los elementos tanto clases como id
+    agana el que tiene mas valor que tiene 
+    
+    
+    hay una forma de romper las espeficidad que sucede cuando usamos la etiqueta 
+    import que eso hace que este valga mas que todos o sobre escribe 
+    
+    pero no es una buena practica
+    
+    siempre usar clases y nunca se usa important
+    cascada - funciona siempre en la especidifidadd sobre el elemento sea la misma 
+    siempre usar la clases para no afectar a la cascada
+    herencia
+    
+    
+    la herencia es la capacidad que tienen algunos elementos de heredar algunas porpiedades 
+    de sus elementos contenedores (padres, abuelos, etc)
+    
+    
+    
+    los enlaces no heredan las propiedades que tiene el padre por ende los elementos
+    que contengas otos sub elementos estos elementos heredan las propiedades del elemento 
+    heredor
+
+    inherit es una propiedad que obliga al elemento para tener la herencia 
+
+    .text{
+        color: lyan;
+    ]
+    .link{
+        color: inherit;
+    }
+
+/* el autopreixer es una apliacion o equivalencia de las tecnologias o mejorar
+que a un no se impletaron a un en el navegador eso es simple
+
+descagardo el programa Prepros/ existe muchas alternativas de programas pero es la mejor
+para los que no saben nada programar o mas facil para el publico en general.
+
+ver el video 17 y la de especifidad
+
+prespro tiene la opcion de lanzar un servidor de desarrollo
+*/
+
+    .list{
+        color: indianred;
+    }
+
+    .list-item-extra{
+        color:initial;
+    ]
+    */
+
+    .title{
+        background-color: yellow;
+    }
+
+    .list{
+        background-color: red;
+    }
+
+    .list-item{
+        color: inherit;
+    }
+
+    

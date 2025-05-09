@@ -1,0 +1,32 @@
+/* 
+selectores compuesto:  
+    selectores agrupados: se agrupan los selectores separados por comas y se escriben  el estilo
+    una solo vez.
+
+
+Selectores combinadores:
+    selector descendiente
+    selector hermano siguiente
+
+
+Si el elemento esta dentro de otro elemento es hijo y si estan al mismo nivel son hermanos.
+
+
+
+
+por lo que selector hermano es el + si se encuentra rodeo por la misma etiqueta entonces este no tedra 
+error pero de lo contrario no funcionara
+*/
+
+
+.title-2 + .text-2{
+    background-color: teal;
+}
+
+.title ~ p{
+    background-color: violet;
+}
+/* Hay otro tipo de selector hermano que lo que hace es seleccionar a todos
+los hermanos siguientes.  */
+
+/* no es buena idea cambiar mas de otros  */

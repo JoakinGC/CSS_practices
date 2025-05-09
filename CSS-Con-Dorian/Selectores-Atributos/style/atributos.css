@@ -1,0 +1,59 @@
+/* Selectores */
+
+
+/* 
+ Selectores simples
+    selectores elementales
+        Selector Universal
+        Selector de tipo o etiqueta -> Nombre de la etiqueta
+    Selectores de atributo
+        id ->id de elemento
+        clase -> clase del elemento
+        otros atributos 
+
+    Selectores Compuestos
+        Selectores Agrupados
+        Selectores Combinadores
+        Pseudoclase - PseudoElementos
+
+        [atributo]
+        [atributo=value]
+        [atributo^=valor]
+        [atributo*=valor]
+        [atributo$=valor]
+        [atributo|=valor]
+*/
+
+[href]{
+    background-color: red;
+}
+/* esto es en cascada los estilos que viene de abajo sobrescriben los de arriba */
+[href="https://google.com"]{
+    background-color: orangered;
+}
+/* busca el atributo con el mismo valor o direccion hhtps */
+[href^="color"]{
+    background-color: brown;
+}
+/* solo busca aquellos atributos en donde el valor es igual en la primera liena */
+[href*="modo"]{
+    background-color: royalblue;
+}
+/* busca el valor de cualquier posicion */
+[href$=rojo]{
+    background-color: skyblue;
+}
+/* busca el mismo valor del atributo en la ultima linea */
+
+
+[href$=azul]{
+    background-color: greenyellow;
+}
+
+[lang|=en]{
+    background-color: indigo;
+}
+/* 
+Los estilos o atributos se pueden aplicar a cualquiera que quieras no es necesario que solo se a href 
+lang.
+*/

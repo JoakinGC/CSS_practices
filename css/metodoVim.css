@@ -1,0 +1,22 @@
+/* Metodo Vim: cascada de manera unirfome
+
+si solo queremos cambiar solo uno tenemos:*/
+
+.conctac-form__input:first-child{
+
+    color: red;
+}
+
+/* .conctato-form__label::first-line{
+    color: royalblue;
+    
+} 
+
+
+otra forma se coloca dos guiones medio eso es lo mas importante y em input que queremos cambiar especificamente lo vemos
+
+*/
+
+.opinion-form___input--active{
+    color: seagreen;
+}

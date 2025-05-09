@@ -1,0 +1,51 @@
+/* 
+
+controla los 4 lados posibles a los que dar padding 
+
+padding 
+padding-top
+right
+bottom
+
+
+se puede colocar solo padding y hacemos lo anterior
+
+
+terminar ejercicio del video */
+
+body{
+    background-color: #333;
+    color: #fff
+}
+
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 100px 70px;
+}
+/* con los elementos de linea funciona igual que con elementos de bloque */
+.online{
+    background-color: lightcoral;
+    color: inherit;
+    width: 200px;
+    height: 200px;
+}
+
+/* la diferencia de margin y paddin es que con margen movemos y padding aumentamos 
+o crecees de los mismo por eso la diferencia. */
+
+.buttons{
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.buttons{
+    margin-trim: 130px;
+    padding: 25px 50px;
+}
+

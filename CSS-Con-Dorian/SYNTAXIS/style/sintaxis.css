@@ -1,0 +1,15 @@
+/* 
+selector: El elemento de al que vamos a aplicar los estilos
+propiedad: lo que vamos a cambiar 
+valor: El nuevo valor que va a tener
+propiedad: valor: -> Se lo denomina declaracion
+AL conjunto de selector+declaracion (es) se lo denomina regla.
+
+
+*/
+selector{
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    
+}

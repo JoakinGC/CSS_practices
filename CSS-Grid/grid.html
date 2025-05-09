@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<!--
+	
+
+
+-->
+<body>
+<header class="header">
+	<h1>Grid CSS</h1>
+	<img src="grid-css-conceptos.png">
+</header>
+
+<article>
+	<!--
+    Contenedor: El elemento padre contenedor que definirá la cuadrícula o rejilla.
+    Ítem: Cada uno de los hijos que contiene la cuadrícula (elemento contenedor).
+    Celda (grid cell): Cada uno de los cuadritos (unidad mínima) de la cuadrícula.
+    Area (grid area): Región o conjunto de celdas de la cuadrícula.
+    Banda (grid track): Banda horizontal o vertical de celdas de la cuadrícula.
+    Línea (grid line): Separador horizontal o vertical de las celdas de la cuadrícula.
+-->
+	<ul class="conceptos">
+		<li><strong></strong></li>
+	</ul>
+</article>
+<main>
+	<section id="section-1" class="section">
+		<h2>Grid: display: grid;</h2>
+		<div class="grid"> <!-- contenedor -->
+  			<div class="a">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b">Item 2</div>
+  			<div class="c">Item 3</div>
+  			<div class="d">Item 4</div>
+		</div>
+	</section>
+	<section id="section-2" class="section">
+		<h2>Grid: display: inline-grid;</h2>
+		<div class="grid2"> <!-- contenedor -->
+  			<div class="a2">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b2">Item 2</div>
+  			<div class="c2">Item 3</div>
+  			<div class="d2">Item 4</div>
+		</div>
+	</section>
+	<section id="section-3" class="section">
+		<h2>Grid con Filas y Columnas</h2>
+		<div class="grid3"> <!-- contenedor -->
+  			<div class="a3">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b3">Item 2</div>
+  			<div class="c3">Item 3</div>
+  			<div class="d3">Item 4</div>
+		</div>
+		<br>
+		<img src="grid-template-columns.png">
+	</section>
+	<section id="section-4" class="section">
+		<h2>Interactivo Grid</h2>
+		<span>grid-template-columns:</span>
+		<input type="text" id="grid-tem-colu">
+		<span>grid-template-rows:</span>
+		<input type="text" id="grid-tem-rows">
+		<input type="button" class="button">
+		<div class="grid4"> <!-- contenedor -->
+  			<div class="a4">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b4">Item 2</div>
+  			<div class="c4">Item 3</div>
+  			<div class="d4">Item 4</div>
+		</div>
+	</section>
+	<h2>Grid con frames</h2>
+	<section id="section-5" class="section">
+		<div class="grid5"> <!-- contenedor -->
+  			<div class="a5">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b5">Item 2</div>
+  			<div class="c5">Item 3</div>
+  			<div class="d5">Item 4</div>
+		</div>
+		<br>
+		<img src="grid-unidad-fr.png">
+	</section>
+	<section id="section-6" class="section">
+		<div class="grid6"> <!-- contenedor -->
+  			<div class="a6">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b6">Item 2</div>
+  			<div class="c6">Item 3</div>
+  			<div class="d6">Item 4</div>
+		</div>
+	</section>
+	<section id="section-7" class="section">
+		<div class="grid7"> <!-- contenedor -->
+  			<div class="a7">Item 1</div> <!-- cada uno de los ítems del grid -->
+  			<div class="b7">Item 2</div>
+  			<div class="c7">Item 3</div>
+  			<div class="d7">Item 4</div>
+		</div>
+	</section>
+</main>
+
+<script type="text/javascript" src="app.js
+"></script>
+</body>
+</html>

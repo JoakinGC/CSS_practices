@@ -1,0 +1,71 @@
+/* selector{
+    propiedad: valor
+} */
+/* selecion univversal */
+/* Selector es el elemento o conjucto de elementos que queremos cambiar la propeidad
+propiedad es el atributo o caracteticas que queramos cambiar del selector o caja o etiqueta html 
+que seleccionamos.
+
+
+ejemplo:
+*/
+
+#element{
+    color: red;
+}
+/* selecion por ID */
+[Prueba="Prueba"]{
+    color: salmon;
+}
+/* selecion por atributo */
+
+/*p{
+    color: brown;
+}/*
+/* selector para todas etiqueta p */
+h3 p{
+    color: chartreuse;
+}
+/* selecionar de manera ascendete */
+h3-class p{
+    color: darkblue;
+}
+/* selector descente con clases */
+/* 
+  un selector puede ser:
+   - universal
+
+   - De tipo
+
+   - De clases
+
+   - ID
+
+   - Por atributo
+
+   - Descendiente
+
+   - Pseudo - clases
+*/
+
+/* existe una jeraquia de selectores:
+
+tenemos el mas bajo de todos:
+
+ - Pseudo elementos
+ - Elementos
+ - Atributo 
+ - Pseudo Clases
+ - Clases 
+ - Identificadores
+ - Estilos de línea
+ - !inportant
+
+Como usamos el important:
+
+*/
+
+h4{
+    color: chartreuse!important;
+}
+
